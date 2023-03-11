@@ -1,0 +1,199 @@
+html {
+  font-size: 16px;
+}
+
+/***************** Main Container *****************/
+.cf-m {
+  padding: 0% 12% 3%;
+  background-color: #0b111e;
+}
+
+/***************** NavBar *****************/
+.navbar {
+  background-color: #0b111e;
+}
+
+.navl2 {
+  padding: 0px 0px 0px 150px;
+}
+
+/***************** Hero Section *****************/
+#hero-section {
+  background-color: #0b111e;
+  padding: 10% 0%;
+}
+
+.sub-cap {
+  font-family: "Poppins";
+  font-size: 0.875rem;
+  color: #e2e3f0;
+  line-height: 170%;
+  letter-spacing: 0.25px;
+}
+
+.main-heading {
+  font-family: "Poppins";
+  font-size: 3.75rem;
+  font-weight: 600;
+  color: #df8e06;
+  line-height: 170%;
+  letter-spacing: 0.25px;
+  transition: 0.8s;
+}
+
+.main-heading:hover {
+  color: #ffa000;
+}
+
+.main-caption {
+  font-family: "Poppins";
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 170%;
+  letter-spacing: 0.5px;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/***************** Buttons *****************/
+.about-btn {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 0.9375rem;
+  color: #f1f5f9;
+  background-color: #0b111e;
+  border-color: #f1f5f9;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.375rem;
+  margin-top: 2.8125rem;
+  transition: 0.8s;
+}
+
+/* .about-btn #icons {
+  margin-left: 10px;
+  display: inline-block;
+  display: none;
+  transition: 0.8s;
+} */
+.about-btn:hover {
+  background-color: #f1f5f9;
+}
+
+/* .about-btn:hover #icons {
+  display: inline-block;
+  transition: 0.8s;
+} */
+.view-designs-btn {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #0b111e;
+  background-color: #df8e06;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.375rem;
+  margin-top: 1.875rem;
+  margin-left: 1.5625rem;
+  transition: 0.8s;
+}
+
+.view-designs-btn:hover {
+  background-color: #ffa000;
+}
+
+.design-icon {
+  width: 40px;
+}
+
+/**************** Designs Section Container *************/
+.cf-d {
+  background-color: #1e293b;
+  padding: 5% 12% 5%;
+}
+
+/* Design Thumbnail Cards */
+.title-and-button {
+  align-items: center;
+}
+
+.design-card-title {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1.375rem;
+  color: #ffffff;
+  /* line-height: 170%; */
+  align-self: center;
+}
+
+
+.design-card-button:hover 
+{
+  background-color: #1e293b;
+  color: #ffffff;
+}
+
+
+.designs-row {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 100px;
+}
+
+
+.designs-row .fidelity-card 
+{
+  background-color: #475569;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.designs-row .fidelity-card .title-and-button 
+{
+  padding: 15px;
+  padding-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.designs-row .fidelity-card .title-and-button .design-card-title .card-title 
+{
+  font-family: "Poppins";
+}
+
+.designs-row .fidelity-card .title-and-button .design-card-btn .design-card-button 
+{
+  font-family: "Poppins";
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 170%;
+  color: #475569;
+  transition: 0.5s;
+}
+
+.designs-row .fidelity-card .title-and-button .design-card-btn .design-card-button:hover 
+{
+  background: #1e293b;
+  color: #fff;
+}
+
+.design-card 
+{
+  padding: 15px;
+}
+
+.design-card .thumbnail 
+{
+  width: 100%;
+  border-radius: 8px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
