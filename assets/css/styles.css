@@ -125,6 +125,11 @@ html {
   /* line-height: 170%; */
   align-self: center;
 }
+@media (max-width: 1495px) {
+  .design-card-title {
+    font-size: 1.2rem;
+  }
+}
 
 .design-card-button:hover {
   background-color: #1e293b;
@@ -138,13 +143,13 @@ html {
   grid-gap: 100px;
 }
 
-.designs-row .fidelity-card {
+.fidelity-card {
   background-color: #475569;
   overflow: hidden;
   border-radius: 8px;
 }
 
-.designs-row .fidelity-card .title-and-button {
+.title-and-button {
   padding: 15px;
   padding-top: 0;
   display: flex;
@@ -152,11 +157,7 @@ html {
   align-items: center;
 }
 
-.designs-row .fidelity-card .title-and-button .design-card-title .card-title {
-  font-family: "Poppins";
-}
-
-.designs-row .fidelity-card .title-and-button .design-card-btn .design-card-button {
+.design-card-button {
   font-family: "Poppins";
   border-radius: 5px;
   background-color: #ffffff;
@@ -170,19 +171,24 @@ html {
   transition: 0.5s;
 }
 
-.designs-row .fidelity-card .title-and-button .design-card-btn .design-card-button:hover {
+.design-card-button:hover {
   background: #1e293b;
-  color: #fff;
+  color: #ffffff;
 }
 
 .design-card {
   padding: 15px;
 }
 
-.design-card .thumbnail {
-  width: 100%;
+.thumbnail {
   border-radius: 8px;
   width: 100%;
+  aspect-ratio: 1/1.2;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 1920px) {
+  .thumbnail {
+    aspect-ratio: 1/0.9;
+  }
 }/*# sourceMappingURL=styles.css.map */
