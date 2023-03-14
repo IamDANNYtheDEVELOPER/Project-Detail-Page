@@ -117,22 +117,22 @@ html {
   align-items: center;
 }
 
-.design-card-title {
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 1.375rem;
-  color: #ffffff;
-  /* line-height: 170%; */
-  align-self: center;
+// .design-card-title {
+//   font-family: "Poppins";
+//   font-weight: 500;
+//   font-size: 1.375rem;
+//   color: #ffffff;
+//   /* line-height: 170%; */
+//   align-self: center;
 
-  @media (max-width : 1495px) {
-    font-size: 1.2rem;
-  }
+//   @media (max-width : 1495px) {
+//     font-size: 1.2rem;
+//   }
 
-  @media (min-width : 275px) {
-    font-size: 1rem;
-  }
-}
+//   @media (max-width : 275px) {
+//     font-size: 1rem;
+//   }
+// }
 
 
 .design-card-button:hover 
@@ -172,7 +172,12 @@ html {
 
 .card-title  //.designs-row .fidelity-card .title-and-button .design-card-title 
 {
-  // font-family: "Poppins";
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #ffffff;
+  /* line-height: 170%; */
+  align-self: center;
 }
 
 .design-card-button  // .designs-row .fidelity-card .title-and-button .design-card-btn 
@@ -213,15 +218,19 @@ html {
 {
   border-radius: 8px;
   width: 100%;
-  aspect-ratio: 1/1.2;
+  aspect-ratio: 1.1/1;
+  max-width: max-content;
   object-fit: cover;
 
-  @media (max-width: 1920px) {
-    aspect-ratio: 0.7/0.6;
-  }
 
-  @media (max-width: 1495px) {
-    aspect-ratio: 1.2/1;
+
+  // @media (max-width: 1920px) {
+  //   aspect-ratio: 0.7/0.6;
+  // }
+
+  @media (max-width: 1000px) and (max-width: 1500px){
+    width: 100%;
+    opacity: 0.1;
   }
 }
 
