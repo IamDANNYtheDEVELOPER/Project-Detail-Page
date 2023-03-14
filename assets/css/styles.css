@@ -175,11 +175,6 @@ html {
   color: #475569;
   transition: 0.5s;
 }
-@media (min-width: 275px) {
-  .design-card-button {
-    font-size: 0.8rem;
-  }
-}
 
 .design-card-button:hover {
   background: #1e293b;
@@ -199,7 +194,7 @@ html {
 }
 @media (max-width: 1920px) {
   .thumbnail {
-    aspect-ratio: 1/0.9;
+    aspect-ratio: 0.7/0.6;
   }
 }
 @media (max-width: 1495px) {

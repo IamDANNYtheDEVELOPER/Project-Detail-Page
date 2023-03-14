@@ -189,9 +189,9 @@ html {
   color: #475569;
   transition: 0.5s;
 
-  @media (min-width : 275px) {
-    font-size: 0.8rem;
-  }
+  // @media (min-width : 275px) {
+  //   font-size: 0.8rem;
+  // }
 }
 
 .design-card-button:hover  // .designs-row .fidelity-card .title-and-button .design-card-btn 
@@ -217,7 +217,7 @@ html {
   object-fit: cover;
 
   @media (max-width: 1920px) {
-    aspect-ratio: 1/0.9;
+    aspect-ratio: 0.7/0.6;
   }
 
   @media (max-width: 1495px) {
