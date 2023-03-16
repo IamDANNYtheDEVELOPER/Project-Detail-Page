@@ -184,9 +184,8 @@ html {
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media (max-width: 1000px) and (max-width: 1500px) {
+@media (max-width: 1500px) {
   .thumbnail {
     width: 100%;
-    opacity: 0.1;
   }
 }/*# sourceMappingURL=styles.css.map */
