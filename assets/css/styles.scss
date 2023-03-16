@@ -146,11 +146,28 @@ html {
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 100px;
+  grid-gap: 100px; //100px
 
-  // @media (min-width: 275px) {
-  //   width: 50%px;
-  // }
+  @media (max-width: 1500px) {
+    grid-gap: 50px;
+  }
+
+  @media (max-width: 1350px) {
+    grid-gap: 30px;
+  }
+
+  @media (max-width: 1300px) {
+    grid-gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    grid-gap: 10.5%;
+  }
+
+  @media (max-width: 588px) {
+    grid-gap: 60px;
+  }
+  
 }
 
 
@@ -178,6 +195,51 @@ html {
   color: #ffffff;
   /* line-height: 170%; */
   align-self: center;
+
+  @media (max-width: 1270px) {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 1075px) {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 991px) {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 830px) {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 670px) {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 588px) {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 420px) {
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 320px) {
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 283px) {
+    font-weight: 400;
+    font-size: 0.75rem;
+  }
 }
 
 .design-card-button  // .designs-row .fidelity-card .title-and-button .design-card-btn 
@@ -189,14 +251,50 @@ html {
   padding: 10px 20px;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 170%;
   color: #475569;
   transition: 0.5s;
 
-  // @media (min-width : 275px) {
-  //   font-size: 0.8rem;
-  // }
+  @media (max-width : 1270px) {
+    font-size: 0.75rem;
+    padding: 8px 15px;
+  }
+
+  @media (max-width : 1075px) {
+    font-size: 0.75rem;
+    padding: 8px 15px;
+  }
+
+  @media (max-width : 991px) {
+    font-size: 0.8rem;
+    padding: 10px 20px;
+  }
+
+  @media (max-width : 765px) {
+    font-size: 0.7rem;
+    padding: 8px 8px;
+  }
+
+  @media (max-width : 588px) {
+    font-size: 0.938rem;
+    padding: 10px 20px;
+  }
+
+  @media (max-width : 420px) {
+    font-size: 0.8rem;
+    padding: 8px 8px;
+  }
+
+  @media (max-width : 320px) {
+    font-size: 0.7rem;
+    padding: 8px 8px;
+  }
+
+  @media (max-width : 283px) {
+    font-size: 0.7rem;
+    padding: 5px 5px;
+  }
 }
 
 .design-card-button:hover  // .designs-row .fidelity-card .title-and-button .design-card-btn 
@@ -214,18 +312,17 @@ html {
 {
   border-radius: 8px;
   width: 100%;
-  aspect-ratio: 1.1/1;
+  aspect-ratio: 0.9/0.775; // 0.9/0.775 , 1.1/1
   max-width: max-content;
   object-fit: cover;
 
-
-
-  // @media (max-width: 1920px) {
-  //   aspect-ratio: 0.7/0.6;
-  // }
-
   @media (max-width: 1500px){
     width: 100%;
+  }
+
+  @media (max-width: 588px){
+    width: 100%;
+    aspect-ratio: 0.88/0.675;
   }
 }
 

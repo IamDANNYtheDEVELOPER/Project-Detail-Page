@@ -128,6 +128,31 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 100px;
 }
+@media (max-width: 1500px) {
+  .designs-row {
+    grid-gap: 50px;
+  }
+}
+@media (max-width: 1350px) {
+  .designs-row {
+    grid-gap: 30px;
+  }
+}
+@media (max-width: 1300px) {
+  .designs-row {
+    grid-gap: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .designs-row {
+    grid-gap: 10.5%;
+  }
+}
+@media (max-width: 588px) {
+  .designs-row {
+    grid-gap: 60px;
+  }
+}
 
 .fidelity-card {
   background-color: #475569;
@@ -151,6 +176,60 @@ html {
   /* line-height: 170%; */
   align-self: center;
 }
+@media (max-width: 1270px) {
+  .card-title {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 1075px) {
+  .card-title {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 991px) {
+  .card-title {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 830px) {
+  .card-title {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 670px) {
+  .card-title {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 588px) {
+  .card-title {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 420px) {
+  .card-title {
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 320px) {
+  .card-title {
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 283px) {
+  .card-title {
+    font-weight: 400;
+    font-size: 0.75rem;
+  }
+}
 
 .design-card-button {
   font-family: "Poppins";
@@ -160,10 +239,58 @@ html {
   padding: 10px 20px;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 170%;
   color: #475569;
   transition: 0.5s;
+}
+@media (max-width: 1270px) {
+  .design-card-button {
+    font-size: 0.75rem;
+    padding: 8px 15px;
+  }
+}
+@media (max-width: 1075px) {
+  .design-card-button {
+    font-size: 0.75rem;
+    padding: 8px 15px;
+  }
+}
+@media (max-width: 991px) {
+  .design-card-button {
+    font-size: 0.8rem;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 765px) {
+  .design-card-button {
+    font-size: 0.7rem;
+    padding: 8px 8px;
+  }
+}
+@media (max-width: 588px) {
+  .design-card-button {
+    font-size: 0.938rem;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 420px) {
+  .design-card-button {
+    font-size: 0.8rem;
+    padding: 8px 8px;
+  }
+}
+@media (max-width: 320px) {
+  .design-card-button {
+    font-size: 0.7rem;
+    padding: 8px 8px;
+  }
+}
+@media (max-width: 283px) {
+  .design-card-button {
+    font-size: 0.7rem;
+    padding: 5px 5px;
+  }
 }
 
 .design-card-button:hover {
@@ -178,7 +305,7 @@ html {
 .thumbnail {
   border-radius: 8px;
   width: 100%;
-  aspect-ratio: 1.1/1;
+  aspect-ratio: 0.9/0.775;
   max-width: -moz-max-content;
   max-width: max-content;
   -o-object-fit: cover;
@@ -187,5 +314,11 @@ html {
 @media (max-width: 1500px) {
   .thumbnail {
     width: 100%;
+  }
+}
+@media (max-width: 588px) {
+  .thumbnail {
+    width: 100%;
+    aspect-ratio: 0.88/0.675;
   }
 }/*# sourceMappingURL=styles.css.map */
