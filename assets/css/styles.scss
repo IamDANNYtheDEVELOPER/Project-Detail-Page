@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 /***************** Main Container *****************/
@@ -14,7 +14,7 @@ html {
 }
 
 .navl2 {
-  padding: 0px 0px 0px 150px;
+  padding: 0px 0px 0px 15px;
 }
 
 /***************** Hero Section *****************/
@@ -28,7 +28,7 @@ html {
   font-size: 0.875rem;
   color: #e2e3f0;
   line-height: 170%;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.016rem;
 }
 
 .main-heading {
@@ -37,7 +37,7 @@ html {
   font-weight: 600;
   color: #df8e06;
   line-height: 170%;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.016rem;
   transition: 0.8s;
 }
 
@@ -50,7 +50,7 @@ html {
   font-size: 1rem;
   color: #ffffff;
   line-height: 170%;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.031rem;
 }
 
 .hero-img {
@@ -66,25 +66,15 @@ html {
   background-color: #0b111e;
   border-color: #f1f5f9;
   border-radius: 0.25rem;
-  padding: 0.75rem 1.375rem;
+  padding: 12px 22px;
   margin-top: 2.8125rem;
   transition: 0.8s;
 }
 
-/* .about-btn #icons {
-  margin-left: 10px;
-  display: inline-block;
-  display: none;
-  transition: 0.8s;
-} */
 .about-btn:hover {
   background-color: #f1f5f9;
 }
 
-/* .about-btn:hover #icons {
-  display: inline-block;
-  transition: 0.8s;
-} */
 .view-designs-btn {
   font-family: "Poppins";
   font-weight: 500;
@@ -92,7 +82,7 @@ html {
   color: #0b111e;
   background-color: #df8e06;
   border-radius: 0.25rem;
-  padding: 0.75rem 1.375rem;
+  padding: 12px 22px;
   margin-top: 1.875rem;
   margin-left: 1.5625rem;
   transition: 0.8s;
@@ -103,7 +93,7 @@ html {
 }
 
 .design-icon {
-  width: 40px;
+  width: 2.5rem;
 }
 
 /**************** Designs Section Container *************/
@@ -117,24 +107,6 @@ html {
   align-items: center;
 }
 
-// .design-card-title {
-//   font-family: "Poppins";
-//   font-weight: 500;
-//   font-size: 1.375rem;
-//   color: #ffffff;
-//   /* line-height: 170%; */
-//   align-self: center;
-
-//   @media (max-width : 1495px) {
-//     font-size: 1.2rem;
-//   }
-
-//   @media (max-width : 275px) {
-//     font-size: 1rem;
-//   }
-// }
-
-
 .design-card-button:hover 
 {
   background-color: #1e293b;
@@ -143,29 +115,33 @@ html {
 
 
 .designs-row {
-  margin-top: 100px;
+  margin-top: 6.25rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 100px; //100px
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  grid-gap: 6.25rem; //100px
 
   @media (max-width: 1500px) {
-    grid-gap: 50px;
+    grid-gap: 3.125rem;
   }
 
   @media (max-width: 1350px) {
-    grid-gap: 30px;
+    grid-gap: 1.875rem;
   }
 
   @media (max-width: 1300px) {
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
   }
 
   @media (max-width: 991px) {
-    grid-gap: 10.5%;
+    grid-gap: 5rem;
+  }
+
+  @media (max-width: 631px) {
+    grid-gap: 2.5rem;
   }
 
   @media (max-width: 588px) {
-    grid-gap: 60px;
+    grid-gap: 3.75rem;
   }
   
 }
@@ -175,13 +151,13 @@ html {
 {
   background-color: #475569;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .title-and-button //.designs-row .fidelity-card 
 {
-  padding: 15px;
-  padding-top: 0;
+  padding: 15.008px;
+  padding-top: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -316,7 +292,7 @@ html {
   max-width: max-content;
   object-fit: cover;
 
-  @media (max-width: 1500px){
+  @media (max-width: 93.75rem){
     width: 100%;
   }
 
