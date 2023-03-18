@@ -23,6 +23,11 @@ html {
   padding: 10% 0%;
 }
 
+// .hero-content
+// {
+//   box-sizing: border-box;
+// }
+
 .sub-cap {
   font-family: "Poppins";
   font-size: 0.875rem;
@@ -96,8 +101,10 @@ html {
   width: 2.5rem;
 }
 
+/**************** Hero Section End *************/
+
 /**************** Designs Section Container *************/
-.cf-d {
+.designs-container {
   background-color: #1e293b;
   padding: 5% 12% 5%;
 }
@@ -152,6 +159,7 @@ html {
   background-color: #475569;
   overflow: hidden;
   border-radius: 0.5rem;
+  box-shadow: 0px 19px 34px -11px rgba(0, 0, 0, 0.21);
 }
 
 .title-and-button //.designs-row .fidelity-card 
@@ -302,3 +310,10 @@ html {
   }
 }
 
+/**************** Designs Section Container End*************/
+
+.userflows-container
+{
+  background-color: #334155;
+  padding: 5% 12% 5%;
+}

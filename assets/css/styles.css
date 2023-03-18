@@ -96,8 +96,9 @@ html {
   width: 2.5rem;
 }
 
+/**************** Hero Section End *************/
 /**************** Designs Section Container *************/
-.cf-d {
+.designs-container {
   background-color: #1e293b;
   padding: 5% 12% 5%;
 }
@@ -153,6 +154,7 @@ html {
   background-color: #475569;
   overflow: hidden;
   border-radius: 0.5rem;
+  box-shadow: 0px 19px 34px -11px rgba(0, 0, 0, 0.21);
 }
 
 .title-and-button {
@@ -316,4 +318,10 @@ html {
     width: 100%;
     aspect-ratio: 0.88/0.675;
   }
+}
+
+/**************** Designs Section Container End*************/
+.userflows-container {
+  background-color: #334155;
+  padding: 5% 12% 5%;
 }/*# sourceMappingURL=styles.css.map */
