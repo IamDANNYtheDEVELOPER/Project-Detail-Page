@@ -321,7 +321,32 @@ html {
 }
 
 /**************** Designs Section Container End*************/
+/**************** Userflows Section Container Start*************/
 .userflows-container {
   background-color: #334155;
   padding: 5% 12% 5%;
+}
+
+.userflow-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  grid-gap: 6.25rem;
+}
+
+.userflow-card {
+  background-color: #030B19;
+}
+
+.userflow-img {
+  border-radius: 8px;
+  width: 100%;
+  aspect-ratio: 0.9/0.475;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.viewflow {
+  text-align: right;
 }/*# sourceMappingURL=styles.css.map */
