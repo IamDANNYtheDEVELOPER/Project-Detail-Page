@@ -2,6 +2,10 @@ html {
   font-size: 1rem;
 }
 
+body{
+  margin: 0;
+}
+
 /***************** Main Container *****************/
 .cf-m {
   padding: 0% 12% 3%;
@@ -315,6 +319,16 @@ html {
 
 /**************** Userflows Section Container Start*************/
 
+.top-content
+{
+  color: white;
+}
+
+.bottom-content
+{
+  position: relative;
+}
+
 .userflows-container
 {
   background-color: #334155;
@@ -335,14 +349,17 @@ html {
 
 .userflow-img
 {
-  border-radius: 8px;
+  border-radius: 0px 0px 8px 8px;
+  // width: 100%; 
   width: 100%;
-  aspect-ratio: 0.9/0.475; // 0.9/0.775 , 1.1/1
+  aspect-ratio: 0.9/0.62; // 0.9/0.775 , 1.1/1
   max-width: max-content;
   object-fit: cover;
 }
 
 .viewflow
 {
-  text-align: right;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
