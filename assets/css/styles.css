@@ -341,8 +341,8 @@ body {
 
 .userflow-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
-  grid-gap: 6.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 9.25rem;
 }
 
 .userflow-card {
