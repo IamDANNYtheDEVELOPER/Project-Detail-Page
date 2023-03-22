@@ -326,8 +326,37 @@ body {
 
 /**************** Designs Section Container End*************/
 /**************** Userflows Section Container Start*************/
+.userflow-caption {
+  color: #94A3B8;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding-top: 30px;
+  padding-left: 15px;
+  margin: 0;
+}
+@media (max-width: 1227px) {
+  .userflow-caption {
+    font-size: 13px;
+  }
+}
+
+.userflow-title {
+  color: #F8FAFC;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin: 0;
+}
+@media (max-width: 1227px) {
+  .userflow-title {
+    font-size: 22px;
+  }
+}
+
 .top-content {
-  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .bottom-content {
@@ -342,25 +371,71 @@ body {
 .userflow-row {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 9.25rem;
+  grid-gap: 6.25rem;
+}
+@media (max-width: 1447px) {
+  .userflow-row {
+    grid-gap: 3.5rem;
+  }
+}
+@media (max-width: 1322px) {
+  .userflow-row {
+    grid-gap: 2.5rem;
+  }
+}
+@media (max-width: 1289px) {
+  .userflow-row {
+    grid-gap: 1.5rem;
+  }
+}
+@media (max-width: 1248px) {
+  .userflow-row {
+    grid-gap: 1rem;
+  }
+}
+@media (max-width: 1248px) {
+  .userflow-row {
+    grid-gap: 5rem;
+  }
 }
 
 .userflow-card {
   background-color: #030B19;
+  border-radius: 8px;
 }
 
 .userflow-img {
   border-radius: 0px 0px 8px 8px;
   width: 100%;
-  aspect-ratio: 0.9/0.62;
+  aspect-ratio: 0.7/0.52;
+  padding-top: 10px;
   max-width: -moz-max-content;
   max-width: max-content;
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (max-width: 894px) {
+  .userflow-img {
+    aspect-ratio: 0.5/0.5;
+  }
+}
 
 .viewflow {
   position: absolute;
-  right: 10px;
-  bottom: 10px;
+  right: 20px;
+  bottom: 20px;
+}
+
+.viewflow-btn {
+  background-color: #475569;
+  color: #F1F5F9;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 0px;
+  transition: 0.5s;
+}
+
+.viewflow-btn:hover {
+  background-color: #1e293b;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */

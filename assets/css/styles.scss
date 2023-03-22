@@ -319,9 +319,38 @@ body{
 
 /**************** Userflows Section Container Start*************/
 
+.userflow-caption
+{
+  color: #94A3B8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  padding-top: 30px;
+  padding-left: 15px;
+  margin: 0;
+
+  @media (max-width: 1227px) {
+    font-size: 13px;
+  }
+}
+
+.userflow-title
+{
+  color: #F8FAFC;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin: 0;
+
+  @media (max-width: 1227px) {
+    font-size: 22px;
+  }
+}
+
 .top-content
 {
-  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .bottom-content
@@ -339,12 +368,33 @@ body{
 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 9.25rem;
+  grid-gap: 6.25rem;
+
+  @media (max-width: 1447px) {
+    grid-gap: 3.5rem;
+  }
+
+  @media (max-width: 1322px) {
+    grid-gap: 2.5rem;
+  }
+
+  @media (max-width: 1289px) {
+    grid-gap: 1.5rem;
+  }
+
+  @media (max-width: 1248px) {
+    grid-gap: 1rem;
+  }
+
+  @media (max-width: 1248px) {
+    grid-gap: 5rem;
+  }
 }
 
 .userflow-card
 {
   background-color: #030B19;
+  border-radius: 8px;
 }
 
 .userflow-img
@@ -352,14 +402,40 @@ body{
   border-radius: 0px 0px 8px 8px;
   // width: 100%; 
   width: 100%;
-  aspect-ratio: 0.9/0.62; // 0.9/0.775 , 1.1/1
+  aspect-ratio: 0.7/0.52; // 0.9/0.775 , 1.1/1
+  padding-top: 10px;
   max-width: max-content;
   object-fit: cover;
+
+  @media (max-width: 894px) {
+    aspect-ratio: 0.5/0.5;
+  }
 }
 
 .viewflow
 {
   position: absolute;
-  right: 10px;
-  bottom: 10px;
+  right: 20px;
+  bottom: 20px;
 }
+
+.viewflow-btn
+{
+  // background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  // border: 2px solid #194169;
+  // backdrop-filter: blur(12px);
+  // -webkit-backdrop-filter: blur(12px);
+  background-color: #475569;
+  color: #F1F5F9;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 0px;
+  transition: 0.5s;
+}
+
+.viewflow-btn:hover
+{
+    background-color: #1e293b;
+    cursor: pointer;
+}
+
