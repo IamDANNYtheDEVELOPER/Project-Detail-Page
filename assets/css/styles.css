@@ -357,6 +357,7 @@ body {
 .top-content {
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .bottom-content {
