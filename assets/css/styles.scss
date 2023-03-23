@@ -352,7 +352,7 @@ body{
   display: flex;
   flex-direction: column;
   text-align: left;
-  
+  background-color: #030B19;
 }
 
 .bottom-content
@@ -405,7 +405,6 @@ body{
   // width: 100%; 
   width: 100%;
   aspect-ratio: 0.7/0.52; // 0.9/0.775 , 1.1/1
-  padding-top: 10px;
   max-width: max-content;
   object-fit: cover;
 
