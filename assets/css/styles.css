@@ -108,10 +108,6 @@ body {
 }
 
 /* Design Thumbnail Cards */
-.title-and-button {
-  align-items: center;
-}
-
 .design-card-button:hover {
   background-color: #1e293b;
   color: #ffffff;
@@ -162,7 +158,7 @@ body {
 }
 
 .title-and-button {
-  padding: 15.008px;
+  padding: 0px 15px;
   padding-top: 0px;
   display: flex;
   justify-content: space-between;
@@ -300,7 +296,7 @@ body {
 }
 
 .design-card {
-  padding: 15px;
+  padding: 15px 15px 0px 15px;
 }
 
 .thumbnail {
@@ -334,9 +330,29 @@ body {
   padding-left: 15px;
   margin: 0;
 }
-@media (max-width: 1227px) {
+@media (max-width: 800px) {
   .userflow-caption {
     font-size: 13px;
+  }
+}
+@media (max-width: 700px) {
+  .userflow-caption {
+    font-size: 10px;
+  }
+}
+@media (max-width: 588px) {
+  .userflow-caption {
+    font-size: 15px;
+  }
+}
+@media (max-width: 347px) {
+  .userflow-caption {
+    font-size: 12px;
+  }
+}
+@media (max-width: 283px) {
+  .userflow-caption {
+    font-size: 10px;
   }
 }
 
@@ -348,9 +364,29 @@ body {
   padding-left: 15px;
   margin: 0;
 }
-@media (max-width: 1227px) {
+@media (max-width: 800px) {
   .userflow-title {
     font-size: 22px;
+  }
+}
+@media (max-width: 700px) {
+  .userflow-title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 588px) {
+  .userflow-title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 588px) {
+  .userflow-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 283px) {
+  .userflow-title {
+    font-size: 18px;
   }
 }
 
@@ -359,6 +395,8 @@ body {
   flex-direction: column;
   text-align: left;
   background-color: #030B19;
+  padding-bottom: 10px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .bottom-content {
@@ -372,7 +410,7 @@ body {
 
 .userflow-row {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 6.25rem;
 }
 @media (max-width: 1447px) {
@@ -380,29 +418,28 @@ body {
     grid-gap: 3.5rem;
   }
 }
-@media (max-width: 1322px) {
-  .userflow-row {
-    grid-gap: 2.5rem;
-  }
-}
-@media (max-width: 1289px) {
+@media (max-width: 1331px) {
   .userflow-row {
     grid-gap: 1.5rem;
   }
 }
-@media (max-width: 1248px) {
+@media (max-width: 1247px) {
   .userflow-row {
     grid-gap: 1rem;
   }
 }
-@media (max-width: 1248px) {
+@media (max-width: 991px) {
   .userflow-row {
     grid-gap: 5rem;
   }
 }
+@media (max-width: 631px) {
+  .userflow-row {
+    grid-gap: 2.95rem;
+  }
+}
 
 .userflow-card {
-  background-color: #030B19;
   border-radius: 8px;
 }
 
@@ -415,9 +452,19 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media (max-width: 894px) {
+@media (max-width: 1226px) {
   .userflow-img {
-    aspect-ratio: 0.5/0.5;
+    aspect-ratio: 0.7/0.52;
+  }
+}
+@media (max-width: 831px) {
+  .userflow-img {
+    aspect-ratio: 0.345/0.25;
+  }
+}
+@media (max-width: 368px) {
+  .userflow-img {
+    aspect-ratio: 0.445/0.325;
   }
 }
 

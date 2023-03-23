@@ -114,9 +114,9 @@ body{
 }
 
 /* Design Thumbnail Cards */
-.title-and-button {
-  align-items: center;
-}
+// .title-and-button {
+//   align-items: center;
+// }
 
 .design-card-button:hover 
 {
@@ -168,7 +168,7 @@ body{
 
 .title-and-button //.designs-row .fidelity-card 
 {
-  padding: 15.008px;
+  padding: 0px 15px;
   padding-top: 0px;
   display: flex;
   justify-content: space-between;
@@ -293,7 +293,7 @@ body{
 
 .design-card 
 {
-  padding: 15px;
+  padding: 15px 15px 0px 15px;
 }
 
 .thumbnail  // .design-card 
@@ -328,8 +328,24 @@ body{
   padding-left: 15px;
   margin: 0;
 
-  @media (max-width: 1227px) {
+  @media (max-width: 800px) {
     font-size: 13px;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 10px;
+  }
+
+  @media (max-width: 588px) {
+    font-size: 15px;
+  }
+
+  @media (max-width: 347px) {
+    font-size: 12px;
+  }
+
+  @media (max-width: 283px) {
+    font-size: 10px;
   }
 }
 
@@ -342,8 +358,24 @@ body{
   padding-left: 15px;
   margin: 0;
 
-  @media (max-width: 1227px) {
+  @media (max-width: 800px) {
     font-size: 22px;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 588px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 588px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 283px) {
+    font-size: 18px;
   }
 }
 
@@ -353,6 +385,8 @@ body{
   flex-direction: column;
   text-align: left;
   background-color: #030B19;
+  padding-bottom: 10px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .bottom-content
@@ -369,33 +403,33 @@ body{
 .userflow-row
 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 6.25rem;
 
   @media (max-width: 1447px) {
     grid-gap: 3.5rem;
   }
 
-  @media (max-width: 1322px) {
-    grid-gap: 2.5rem;
-  }
-
-  @media (max-width: 1289px) {
+  @media (max-width: 1331px) {
     grid-gap: 1.5rem;
   }
 
-  @media (max-width: 1248px) {
+  @media (max-width: 1247px) {
     grid-gap: 1rem;
   }
 
-  @media (max-width: 1248px) {
+  @media (max-width: 991px) {
     grid-gap: 5rem;
   }
+
+  @media (max-width: 631px) {
+    grid-gap: 2.95rem;
+  }
+
 }
 
 .userflow-card
 {
-  background-color: #030B19;
   border-radius: 8px;
 }
 
@@ -408,8 +442,16 @@ body{
   max-width: max-content;
   object-fit: cover;
 
-  @media (max-width: 894px) {
-    aspect-ratio: 0.5/0.5;
+  @media (max-width: 1226px) {
+    aspect-ratio: 0.7/0.52;
+  }
+
+  @media (max-width: 831px) {
+    aspect-ratio: 0.345/0.25;
+  }
+
+  @media (max-width: 368px) {
+    aspect-ratio: 0.445/0.325;
   }
 }
 
