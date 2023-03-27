@@ -14,11 +14,25 @@ body {
 
 /***************** NavBar *****************/
 .navbar {
-  background-color: #0b111e;
+  background: #0b111e;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
-.navl2 {
-  padding: 0px 0px 0px 15px;
+.navbar-brand {
+  color: #4abfe3;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.left-nav-content {
+  flex: 1;
+}
+
+.right-nav-content {
+  flex: 1;
 }
 
 /***************** Hero Section *****************/

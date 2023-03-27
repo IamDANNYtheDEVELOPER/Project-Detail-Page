@@ -1,28 +1,50 @@
-html {
+html 
+{
   font-size: 1rem;
 }
 
-body{
+body
+{
   margin: 0;
 }
 
 /***************** Main Container *****************/
-.cf-m {
+.cf-m 
+{
   padding: 0% 12% 3%;
   background-color: #0b111e;
 }
 
 /***************** NavBar *****************/
-.navbar {
-  background-color: #0b111e;
+.navbar 
+{
+  background: #0b111e;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
-.navl2 {
-  padding: 0px 0px 0px 15px;
+.navbar-brand
+{
+  color: #4abfe3;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.left-nav-content
+{
+  flex: 1;
+}
+
+.right-nav-content
+{
+  flex: 1;
 }
 
 /***************** Hero Section *****************/
-#hero-section {
+#hero-section 
+{
   background-color: #0b111e;
   padding: 10% 0%;
 }
@@ -32,7 +54,8 @@ body{
 //   box-sizing: border-box;
 // }
 
-.sub-cap {
+.sub-cap 
+{
   font-family: "Poppins";
   font-size: 0.875rem;
   color: #e2e3f0;
@@ -40,7 +63,8 @@ body{
   letter-spacing: 0.016rem;
 }
 
-.main-heading {
+.main-heading 
+{
   font-family: "Poppins";
   font-size: 3.75rem;
   font-weight: 600;
@@ -50,11 +74,13 @@ body{
   transition: 0.8s;
 }
 
-.main-heading:hover {
+.main-heading:hover 
+{
   color: #ffa000;
 }
 
-.main-caption {
+.main-caption 
+{
   font-family: "Poppins";
   font-size: 1rem;
   color: #ffffff;
@@ -62,12 +88,14 @@ body{
   letter-spacing: 0.031rem;
 }
 
-.hero-img {
+.hero-img 
+{
   width: 100%;
 }
 
 /***************** Buttons *****************/
-.about-btn {
+.about-btn 
+{
   font-family: "Poppins";
   font-weight: 500;
   font-size: 0.9375rem;
@@ -80,11 +108,13 @@ body{
   transition: 0.8s;
 }
 
-.about-btn:hover {
+.about-btn:hover 
+{
   background-color: #f1f5f9;
 }
 
-.view-designs-btn {
+.view-designs-btn 
+{
   font-family: "Poppins";
   font-weight: 500;
   font-size: 1.125rem;
@@ -97,18 +127,21 @@ body{
   transition: 0.8s;
 }
 
-.view-designs-btn:hover {
+.view-designs-btn:hover 
+{
   background-color: #ffa000;
 }
 
-.design-icon {
+.design-icon 
+{
   width: 2.5rem;
 }
 
 /**************** Hero Section End *************/
 
 /**************** Designs Section Container *************/
-.designs-container {
+.designs-container 
+{
   background-color: #1e293b;
   padding: 5% 12% 5%;
 }
@@ -125,33 +158,40 @@ body{
 }
 
 
-.designs-row {
+.designs-row 
+{
   margin-top: 6.25rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
   grid-gap: 6.25rem; //100px
 
-  @media (max-width: 1500px) {
+  @media (max-width: 1500px) 
+  {
     grid-gap: 3.125rem;
   }
 
-  @media (max-width: 1350px) {
+  @media (max-width: 1350px) 
+  {
     grid-gap: 1.875rem;
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1300px) 
+  {
     grid-gap: 1.25rem;
   }
 
-  @media (max-width: 991px) {
+  @media (max-width: 991px) 
+  {
     grid-gap: 5rem;
   }
 
-  @media (max-width: 631px) {
+  @media (max-width: 631px) 
+  {
     grid-gap: 2.5rem;
   }
 
-  @media (max-width: 588px) {
+  @media (max-width: 588px) 
+  {
     grid-gap: 3.75rem;
   }
   
@@ -184,47 +224,56 @@ body{
   /* line-height: 170%; */
   align-self: center;
 
-  @media (max-width: 1270px) {
+  @media (max-width: 1270px) 
+  {
     font-weight: 500;
     font-size: 1.1rem;
   }
 
-  @media (max-width: 1075px) {
+  @media (max-width: 1075px) 
+  {
     font-weight: 500;
     font-size: 0.9rem;
   }
 
-  @media (max-width: 991px) {
+  @media (max-width: 991px) 
+  {
     font-weight: 500;
     font-size: 1.1rem;
   }
 
-  @media (max-width: 830px) {
+  @media (max-width: 830px) 
+  {
     font-weight: 400;
     font-size: 1rem;
   }
 
-  @media (max-width: 670px) {
+  @media (max-width: 670px) 
+  {
     font-weight: 400;
     font-size: 0.8rem;
   }
 
-  @media (max-width: 588px) {
+  @media (max-width: 588px) 
+  {
     font-weight: 500;
     font-size: 1.3rem;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 420px) 
+  {
     font-weight: 400;
     font-size: 1.1rem;
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 320px) 
+  {
     font-weight: 400;
     font-size: 0.9rem;
   }
 
-  @media (max-width: 283px) {
+  @media (max-width: 283px) 
+  {
     font-weight: 400;
     font-size: 0.75rem;
   }
@@ -244,42 +293,50 @@ body{
   color: #475569;
   transition: 0.5s;
 
-  @media (max-width : 1270px) {
+  @media (max-width : 1270px) 
+  {
     font-size: 0.75rem;
     padding: 8px 15px;
   }
 
-  @media (max-width : 1075px) {
+  @media (max-width : 1075px) 
+  {
     font-size: 0.75rem;
     padding: 8px 15px;
   }
 
-  @media (max-width : 991px) {
+  @media (max-width : 991px) 
+  {
     font-size: 0.8rem;
     padding: 10px 20px;
   }
 
-  @media (max-width : 765px) {
+  @media (max-width : 765px) 
+  {
     font-size: 0.7rem;
     padding: 8px 8px;
   }
 
-  @media (max-width : 588px) {
+  @media (max-width : 588px) 
+  {
     font-size: 0.938rem;
     padding: 10px 20px;
   }
 
-  @media (max-width : 420px) {
+  @media (max-width : 420px) 
+  {
     font-size: 0.8rem;
     padding: 8px 8px;
   }
 
-  @media (max-width : 320px) {
+  @media (max-width : 320px) 
+  {
     font-size: 0.7rem;
     padding: 8px 8px;
   }
 
-  @media (max-width : 283px) {
+  @media (max-width : 283px) 
+  {
     font-size: 0.7rem;
     padding: 5px 5px;
   }
@@ -304,11 +361,13 @@ body{
   max-width: max-content;
   object-fit: cover;
 
-  @media (max-width: 93.75rem){
+  @media (max-width: 93.75rem)
+  {
     width: 100%;
   }
 
-  @media (max-width: 588px){
+  @media (max-width: 588px)
+  {
     width: 100%;
     aspect-ratio: 0.88/0.675;
   }
@@ -328,23 +387,28 @@ body{
   padding-left: 15px;
   margin: 0;
 
-  @media (max-width: 800px) {
+  @media (max-width: 800px) 
+  {
     font-size: 13px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 700px) 
+  {
     font-size: 10px;
   }
 
-  @media (max-width: 588px) {
+  @media (max-width: 588px) 
+  {
     font-size: 15px;
   }
 
-  @media (max-width: 347px) {
+  @media (max-width: 347px) 
+  {
     font-size: 12px;
   }
 
-  @media (max-width: 283px) {
+  @media (max-width: 283px) 
+  {
     font-size: 10px;
   }
 }
@@ -358,23 +422,28 @@ body{
   padding-left: 15px;
   margin: 0;
 
-  @media (max-width: 800px) {
+  @media (max-width: 800px) 
+  {
     font-size: 22px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 700px) 
+  {
     font-size: 18px;
   }
 
-  @media (max-width: 588px) {
+  @media (max-width: 588px) 
+  {
     font-size: 24px;
   }
 
-  @media (max-width: 588px) {
+  @media (max-width: 588px) 
+  {
     font-size: 20px;
   }
 
-  @media (max-width: 283px) {
+  @media (max-width: 283px) 
+  {
     font-size: 18px;
   }
 }
@@ -406,23 +475,28 @@ body{
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 6.25rem;
 
-  @media (max-width: 1447px) {
+  @media (max-width: 1447px) 
+  {
     grid-gap: 3.5rem;
   }
 
-  @media (max-width: 1331px) {
+  @media (max-width: 1331px) 
+  {
     grid-gap: 1.5rem;
   }
 
-  @media (max-width: 1247px) {
+  @media (max-width: 1247px) 
+  {
     grid-gap: 1rem;
   }
 
-  @media (max-width: 991px) {
+  @media (max-width: 991px) 
+  {
     grid-gap: 5rem;
   }
 
-  @media (max-width: 631px) {
+  @media (max-width: 631px) 
+  {
     grid-gap: 2.95rem;
   }
 
@@ -442,15 +516,18 @@ body{
   max-width: max-content;
   object-fit: cover;
 
-  @media (max-width: 1226px) {
+  @media (max-width: 1226px) 
+  {
     aspect-ratio: 0.7/0.52;
   }
 
-  @media (max-width: 831px) {
+  @media (max-width: 831px) 
+  {
     aspect-ratio: 0.345/0.25;
   }
 
-  @media (max-width: 368px) {
+  @media (max-width: 368px) 
+  {
     aspect-ratio: 0.445/0.325;
   }
 }
