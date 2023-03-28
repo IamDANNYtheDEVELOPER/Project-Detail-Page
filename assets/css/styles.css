@@ -8,31 +8,57 @@ body {
 
 /***************** Main Container *****************/
 .cf-m {
-  padding: 0% 12% 3%;
+  padding: 0% 10% 3%;
   background-color: #0b111e;
 }
 
 /***************** NavBar *****************/
-.navbar {
-  background: #0b111e;
-  text-align: center;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
+.primary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5% 0%;
+}
+
+.navbar-brand {
+  text-decoration: none;
 }
 
 .navbar-brand {
   color: #4abfe3;
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
-.left-nav-content {
-  flex: 1;
+.nav-content {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 800px) {
+  .nav-content {
+    position: fixed;
+    inset: 0 0 0 60%;
+    background: rgb(18, 60, 95);
+    flex-direction: column;
+    padding: 10% 5% 10%;
+  }
 }
 
-.right-nav-content {
-  flex: 1;
+.nav-link {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #94A3B8;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #F1F5F9;
 }
 
 /***************** Hero Section *****************/
