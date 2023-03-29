@@ -49,7 +49,15 @@ body
   list-style: none;
   padding: 0;
   margin: 0;
+  background: hsla(217, 33%, 17%, 0.75);
 
+  //If the background filter is supported by the browser then it is applied if no then the default background will be applied!!!
+  @supports (backdrop-filter: blur(1rem))  
+  {
+    background: hsl(0 0% 100% / 0.1); //rgb(18, 60, 95) 
+    backdrop-filter: blur(1rem);
+  }
+  
   @media (max-width: 800px) 
   {
     position: fixed;
@@ -58,12 +66,13 @@ body
     // right: 0;
     // bottom: 0;
     // width: 250px;
-    background: rgb(18, 60, 95);
-
+    
     flex-direction: column;
     padding: 10% 5% 10%;
+    // padding: min(30vh, 10rem), 2em;
   }
 }
+  
 
 .nav-link
 {
