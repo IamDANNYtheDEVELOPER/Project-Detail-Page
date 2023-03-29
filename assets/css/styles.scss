@@ -54,6 +54,10 @@ body
   {
     position: fixed;
     inset: 0 0 0 60%;
+    // top: 0;
+    // right: 0;
+    // bottom: 0;
+    // width: 250px;
     background: rgb(18, 60, 95);
 
     flex-direction: column;
