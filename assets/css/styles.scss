@@ -6,6 +6,8 @@ html
 body
 {
   margin: 0;
+
+  overflow-x: hidden;
 }
 
 /***************** Main Container *****************/
@@ -21,7 +23,7 @@ body
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5% 0%;
+  padding: 3% 0%;
 }
 
 .navbar-brand
@@ -54,31 +56,73 @@ body
   //If the background filter is supported by the browser then it is applied if no then the default background will be applied!!!
   @supports (backdrop-filter: blur(1rem))  
   {
-    background: hsl(0 0% 100% / 0.1); //rgb(18, 60, 95) 
+    background: hsla(0, 0%, 100%, 0.1); //rgb(18, 60, 95) 
     backdrop-filter: blur(1rem);
   }
   
   @media (max-width: 800px) 
   {
     position: fixed;
-    inset: 0 0 0 60%;
-    // top: 0;
-    // right: 0;
-    // bottom: 0;
-    // width: 250px;
+    z-index: 1000;
+    // inset: 0 0 0 60%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 220px;
     
     flex-direction: column;
-    padding: 10% 5% 10%;
+    padding: 18% 5% 10%;
     // padding: min(30vh, 10rem), 2em;
+
+    transform: translateX(100%);
+
   }
 }
+
+.nav-content[data-visible="true"]
+{
+  transform: translateX(0%);
+}
+
+.number-in-nav-content
+{
+  display: none;
+
+  @media (max-width: 800px)
+  {
+    display: inline;
+    font-weight: 800;
+  }
+}
+
+.mobile-nav-toggle
+{
+  display: none;
+
+  @media (max-width: 800px) 
+  {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    background: url('/assets/icons/icon-hamburger.svg');
+    background-repeat: no-repeat;
+    width: 2rem;
+    border: 0;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+  }
+}
+    
+
+
   
 
 .nav-link
 {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  color: #94A3B8;
+  color: #b1b9c5;
   font-size: 16px;
   font-weight: 400;
   transition: 0.5s;
