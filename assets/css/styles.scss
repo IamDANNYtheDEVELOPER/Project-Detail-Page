@@ -23,7 +23,7 @@ body
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3% 0%;
+  padding: 20px 0px 5px;
 }
 
 .navbar-brand
@@ -71,7 +71,7 @@ body
     width: 220px;
     
     flex-direction: column;
-    padding: 18% 5% 10%;
+    padding: 100px 5% 10%;
     // padding: min(30vh, 10rem), 2em;
 
     transform: translateX(100%);
@@ -109,7 +109,7 @@ body
     width: 2rem;
     border: 0;
     aspect-ratio: 1;
-    top: 2rem;
+    top: 1.25rem;
     right: 2rem;
   }
 }
