@@ -8,13 +8,13 @@ navToggle.addEventListener('click', () =>
   if (visibility === "false")
   {
     primaryNav.setAttribute('data-visible', true);
-    primaryNav.setAttribute('aria-expanded', true);
+    navToggle.setAttribute('aria-expanded', true);
   }
 
   else if (visibility === "true")
   {
     primaryNav.setAttribute('data-visible', false);
-    primaryNav.setAttribute('aria-expanded', false);
+    navToggle.setAttribute('aria-expanded', false);
   }
 }
 );
