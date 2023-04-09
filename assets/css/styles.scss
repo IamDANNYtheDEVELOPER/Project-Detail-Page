@@ -20,14 +20,15 @@ body
 /***************** NavBar *****************/
 .primary-header
 {
-  // position: fixed;
+  position: relative;
   // top: 0;
   // left: 0;
   // width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0px 5px;
+  padding: 12px 0px 12px;
+  background-color: #0b111ede;
 }
 
 .navbar-brand
@@ -60,7 +61,7 @@ body
   //If the background filter is supported by the browser then it is applied if no then the default background will be applied!!!
   @supports (backdrop-filter: blur(1rem))  
   {
-    background: hsla(0, 0%, 100%, 0.1); //rgb(18, 60, 95) 
+    background: #475569d8; //rgb(18, 60, 95) hsla(0, 0%, 100%, 0.322)
     backdrop-filter: blur(1rem);
   }
   
@@ -122,11 +123,11 @@ body
     background-color: transparent;
     background-image: url('/assets/icons/icon-hamburger.svg');
     background-repeat: no-repeat;
-    width: 2rem;
+    width: 1.5rem;
     border: 0;
     aspect-ratio: 1;
-    top: 1.25rem;
-    right: 2rem;
+    top: 0.8rem;
+    right: 0rem;
   }
 }
 
@@ -139,7 +140,7 @@ body
 {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  color: #b1b9c5;
+  color: #cad0db;
   font-size: 16px;
   font-weight: 400;
   transition: 0.5s;
