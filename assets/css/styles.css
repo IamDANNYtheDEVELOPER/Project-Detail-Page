@@ -21,7 +21,9 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 12px 10% 12px;
-  background-color: rgba(11, 17, 30, 0.8705882353);
+  background-color: #0b111e;
+  z-index: 10000;
+  box-shadow: 0px 19px 34px -11px rgba(0, 0, 0, 0.16);
 }
 
 .navbar-brand {
@@ -105,7 +107,7 @@ body {
     border: 0;
     aspect-ratio: 1;
     top: 0.8rem;
-    right: 0rem;
+    right: 10%;
   }
 }
 
