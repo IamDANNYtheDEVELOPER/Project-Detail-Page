@@ -9,7 +9,7 @@ body {
 
 /***************** Main Container *****************/
 .cf-m {
-  padding: 0% 10% 3%;
+  padding: 0% 12% 3%;
   background-color: #0b111e;
 }
 
@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 10% 12px;
+  padding: 12px 12% 12px;
   background-color: #0b111e;
   z-index: 10000;
   box-shadow: 0px 19px 34px -11px rgba(0, 0, 0, 0.16);
@@ -130,16 +130,28 @@ body {
 
 /***************** Hero Section *****************/
 #hero-section {
-  background-color: #0b111e;
   padding: 10% 0%;
+}
+
+.hero-section-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-content {
+  margin-right: 80px;
+}
+@media (max-width: 1259px) {
+  .hero-content {
+    margin-right: 20px;
+  }
 }
 
 .sub-cap {
   font-family: "Poppins";
   font-size: 0.875rem;
   color: #e2e3f0;
-  line-height: 170%;
-  letter-spacing: 0.016rem;
 }
 
 .main-heading {
@@ -147,9 +159,8 @@ body {
   font-size: 3.75rem;
   font-weight: 600;
   color: #df8e06;
-  line-height: 170%;
-  letter-spacing: 0.016rem;
   transition: 0.8s;
+  margin-top: 10px;
 }
 
 .main-heading:hover {
@@ -160,15 +171,44 @@ body {
   font-family: "Poppins";
   font-size: 1rem;
   color: #ffffff;
-  line-height: 170%;
-  letter-spacing: 0.031rem;
+  margin-top: 0px;
+}
+@media (max-width: 1037px) {
+  .main-caption {
+    font-size: 0.8rem;
+  }
 }
 
 .hero-img {
-  width: 100%;
+  width: 725px;
+}
+@media (max-width: 1664px) {
+  .hero-img {
+    width: 600px;
+  }
+}
+@media (max-width: 1500px) {
+  .hero-img {
+    width: 500px;
+  }
+}
+@media (max-width: 1180px) {
+  .hero-img {
+    width: 400px;
+  }
 }
 
 /***************** Buttons *****************/
+.buttons {
+  display: flex;
+  align-items: self-end;
+}
+@media (max-width: 1049px) {
+  .buttons {
+    gap: 1rem;
+  }
+}
+
 .about-btn {
   font-family: "Poppins";
   font-weight: 500;
@@ -181,9 +221,17 @@ body {
   margin-top: 2.8125rem;
   transition: 0.8s;
 }
+@media (max-width: 1350px) {
+  .about-btn {
+    font-weight: 400;
+    font-size: 0.8375rem;
+    padding: 12px 15px;
+  }
+}
 
 .about-btn:hover {
   background-color: #f1f5f9;
+  color: #334155;
 }
 
 .view-designs-btn {
@@ -192,11 +240,27 @@ body {
   font-size: 1.125rem;
   color: #0b111e;
   background-color: #df8e06;
+  border: none;
   border-radius: 0.25rem;
-  padding: 12px 22px;
+  padding: 0px 22px;
   margin-top: 1.875rem;
   margin-left: 1.5625rem;
   transition: 0.8s;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+@media (max-width: 1350px) {
+  .view-designs-btn {
+    font-weight: 500;
+    font-size: 0.8375rem;
+    padding: 5px 15px;
+  }
+}
+@media (max-width: 1049px) {
+  .view-designs-btn {
+    margin-left: 0;
+  }
 }
 
 .view-designs-btn:hover {
