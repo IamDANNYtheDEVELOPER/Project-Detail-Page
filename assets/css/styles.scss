@@ -6,7 +6,7 @@ html
 body
 {
   margin: 0;
-
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
 }
 
@@ -857,3 +857,37 @@ body
     cursor: pointer;
 }
 
+/**************** About Section Container Start*************/
+
+.about-container
+{
+  background-color: #ffffff;
+  padding: 5% 12% 8%;
+}
+
+.main-heading2 
+{
+  font-family: "Poppins";
+  font-size: 3.75rem;
+  font-weight: 600;
+  color: #df8e06;
+  transition: 0.8s;
+}
+
+.main-heading2:hover 
+{
+  color: #ffa000;
+}
+
+.image-row
+{
+  display: flex;
+  gap: 2rem;
+}
+
+.top-row
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
