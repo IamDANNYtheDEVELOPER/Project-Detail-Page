@@ -865,6 +865,14 @@ body
   padding: 5% 12% 8%;
 }
 
+.about-logo
+{
+  @media (max-width: 576px) 
+  {
+    width: 105%;
+  }
+}
+
 .main-heading2 
 {
   font-family: "Poppins";
