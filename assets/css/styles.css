@@ -824,11 +824,10 @@ body {
 
 /**************** UX Case study *************/
 .ux-container {
-  padding: 5% 12% 8%;
-  background-image: url("/assets/icons/icon-close.svg");
+  position: relative;
 }
 
-.main-heading2 {
+.main-heading3 {
   font-family: "Poppins";
   font-size: 2rem;
   font-weight: 600;
@@ -836,4 +835,36 @@ body {
   transition: 0.8s;
   margin-top: 10px;
   display: inline-block;
+}
+
+.ux-img {
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.main-heading3 {
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  left: 30%;
+}
+
+.ux-text {
+  color: #df8e06;
+  transition: 0.8s;
+}
+
+.ux-text:hover {
+  color: #ffa000;
+}
+
+.ux-coming {
+  position: absolute;
+  z-index: 1;
+  color: #F8FAFC;
+  top: 250px;
+  left: 48%;
+  font-size: 1.25rem;
+  font-weight: 400;
 }/*# sourceMappingURL=styles.css.map */

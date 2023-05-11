@@ -911,11 +911,13 @@ body
 
 .ux-container
 {
-  padding: 5% 12% 8%;
-  background-image: url("/assets/icons/icon-close.svg");
+  // padding: 5% 0% 8%;
+  // background-image: url("/assets/images/hero-img.svg");
+  position: relative;
+  // width: 550pxt;
 }
 
-.main-heading2
+.main-heading3
 {
   font-family: "Poppins";
   font-size: 2rem;
@@ -926,9 +928,43 @@ body
   display: inline-block;
 }
 
+.ux-img
+{
+  width: 100%;
+  // aspect-ratio: 0.7/0.52; // 0.9/0.775 , 1.1/1
+  // max-width: max-content;
+  object-fit: fill;
+  // filter: blur(5px);
+}
+
+.main-heading3
+{
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  left: 30%;
+}
+
+.ux-text
+{
+  color: #df8e06;
+  transition: 0.8s;
+}
+
+.ux-text:hover 
+{
+  color: #ffa000;
+}
+
 .ux-coming
 {
-  
+  position: absolute;
+  z-index: 1;
+  color: #F8FAFC;
+  top: 250px;
+  left: 48%;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 
