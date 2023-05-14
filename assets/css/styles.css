@@ -784,7 +784,7 @@ body {
 /**************** About Section Container Start*************/
 .about-container {
   background-color: #ffffff;
-  padding: 5% 12% 8%;
+  padding: 2% 12% 5%;
 }
 
 @media (max-width: 576px) {
@@ -824,30 +824,29 @@ body {
 
 /**************** UX Case study *************/
 .ux-container {
-  position: relative;
+  background: url("/assets/images/UX-wall.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 40px;
 }
 
 .main-heading3 {
   font-family: "Poppins";
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #ffffff;
   transition: 0.8s;
-  margin-top: 10px;
-  display: inline-block;
+  text-align: center;
+  padding-top: 125px;
 }
 
 .ux-img {
   width: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
-}
-
-.main-heading3 {
-  position: absolute;
-  z-index: 1;
-  top: 150px;
-  left: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
 }
 
 .ux-text {
@@ -860,11 +859,10 @@ body {
 }
 
 .ux-coming {
-  position: absolute;
-  z-index: 1;
   color: #F8FAFC;
-  top: 250px;
-  left: 48%;
+  top: 230px;
+  left: 46%;
   font-size: 1.25rem;
   font-weight: 400;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

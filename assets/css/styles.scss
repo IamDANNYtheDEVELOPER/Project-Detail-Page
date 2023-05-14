@@ -862,7 +862,7 @@ body
 .about-container
 {
   background-color: #ffffff;
-  padding: 5% 12% 8%;
+  padding: 2% 12% 5%;
 }
 
 .about-logo
@@ -911,38 +911,39 @@ body
 
 .ux-container
 {
-  // padding: 5% 0% 8%;
-  // background-image: url("/assets/images/hero-img.svg");
-  position: relative;
-  // width: 550pxt;
+  // padding: 0% 0% 5%;
+  background: url("/assets/images/UX-wall.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // position: relative;
+  height: 300px;
+  margin-bottom: 40px;
 }
 
 .main-heading3
 {
   font-family: "Poppins";
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #ffffff;
   transition: 0.8s;
-  margin-top: 10px;
-  display: inline-block;
+  // display: inline-block;
+  // position: absolute;
+  // z-index: 1;
+  text-align: center;
+  padding-top: 125px;
+  // left: 24%;
 }
 
 .ux-img
 {
   width: 100%;
+  object-fit: cover;
+  height: 400px;
   // aspect-ratio: 0.7/0.52; // 0.9/0.775 , 1.1/1
   // max-width: max-content;
-  object-fit: fill;
   // filter: blur(5px);
-}
-
-.main-heading3
-{
-  position: absolute;
-  z-index: 1;
-  top: 150px;
-  left: 30%;
 }
 
 .ux-text
@@ -958,13 +959,14 @@ body
 
 .ux-coming
 {
-  position: absolute;
-  z-index: 1;
+  // position: absolute;
+  // z-index: 1;
   color: #F8FAFC;
-  top: 250px;
-  left: 48%;
+  top: 230px;
+  left: 46%;
   font-size: 1.25rem;
   font-weight: 400;
+  text-align: center;
 }
 
 
