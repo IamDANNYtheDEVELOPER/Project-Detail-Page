@@ -5,9 +5,10 @@ html
 
 body
 {
-  margin: 0;
+  margin: 0px;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
 }
 
 /***************** Main Container *****************/
@@ -933,7 +934,7 @@ body
   background-size: cover;
   // position: relative;
   height: 300px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .main-heading3
@@ -989,4 +990,103 @@ body
   text-align: center;
 }
 
+
+/**************** Footer *************/
+
+.footer
+{
+  background-color: #0B111E;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.thank-u
+{
+  font-size: 28px;
+  padding-top: 30px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  color: #FBFCFE;
+}
+
+.footer-flex
+{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-links
+{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 25px;
+}
+
+.footer-link-txt
+{
+  font-size: 19px;
+  text-decoration: none;
+  color: #64748B;  
+  transition: 0.2s;
+}
+
+.footer-link-txt:hover
+{
+  color: #EAF0F6;
+}
+
+.footer-icon-links
+{
+  display: flex;
+  gap: 25px;
+  align-self: center;
+}
+
+.fb-icon
+{
+  color: #EDF2F7;
+  font-size: 28px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.fb-icon:hover
+{
+  color: #CBD5E1;
+}
+
+.linkedin-icon
+{
+  color: #EDF2F7;
+  font-size: 28px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.linkedin-icon:hover
+{
+  color: #CBD5E1;
+}
+
+.twitter-icon
+{
+  color: #EDF2F7;
+  font-size: 28px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.twitter-icon:hover
+{
+  color: #CBD5E1;
+}
+
+.copyright-text
+{
+  padding-bottom: 30px;
+  color: #64748B;
+  padding-top: 25px;
+}
 
