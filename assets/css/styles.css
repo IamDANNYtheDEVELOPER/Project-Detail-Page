@@ -167,11 +167,16 @@ body {
 
 .main-heading {
   font-family: "Poppins";
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   font-weight: 600;
   color: #df8e06;
   transition: 0.8s;
   margin-top: 10px;
+}
+@media (max-width: 530px) {
+  .main-heading {
+    font-size: 2rem;
+  }
 }
 
 .main-heading:hover {
@@ -397,7 +402,7 @@ body {
 /**************** Designs Section Container *************/
 .designs-container {
   background-color: #1e293b;
-  padding: 5% 12% 8%;
+  padding: 3% 12% 3%;
 }
 
 /* Design Thumbnail Cards */
@@ -407,7 +412,7 @@ body {
 }
 
 .designs-row {
-  margin-top: 6.25rem;
+  margin-top: 3.25rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
   grid-gap: 6.25rem;
@@ -440,6 +445,11 @@ body {
 @media (max-width: 588px) {
   .designs-row {
     grid-gap: 3.75rem;
+  }
+}
+@media (max-width: 530px) {
+  .designs-row {
+    margin-top: 2rem;
   }
 }
 
@@ -698,7 +708,7 @@ body {
 
 .userflows-container {
   background-color: #334155;
-  padding: 5% 12% 8%;
+  padding: 3% 12% 3%;
 }
 
 .userflow-row {
@@ -795,10 +805,15 @@ body {
 
 .main-heading2 {
   font-family: "Poppins";
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   font-weight: 600;
   color: #df8e06;
   transition: 0.8s;
+}
+@media (max-width: 530px) {
+  .main-heading2 {
+    font-size: 2rem;
+  }
 }
 
 .main-heading2:hover {
@@ -840,6 +855,11 @@ body {
   transition: 0.8s;
   text-align: center;
   padding-top: 125px;
+}
+@media (max-width: 1600px) {
+  .main-heading3 {
+    font-size: 1.5rem;
+  }
 }
 
 .ux-img {
