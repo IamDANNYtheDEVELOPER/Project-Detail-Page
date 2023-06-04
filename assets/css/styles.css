@@ -794,7 +794,7 @@ body {
 /**************** About Section Container Start*************/
 .about-container {
   background-color: #ffffff;
-  padding: 2% 12% 5%;
+  padding: 2% 12% 2%;
 }
 
 @media (max-width: 576px) {
