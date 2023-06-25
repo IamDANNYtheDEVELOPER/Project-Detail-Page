@@ -1096,7 +1096,7 @@ body
 
 // TESTING POP_UP
 
-.popup {
+.designs-popup {
   display: none;
   position: fixed;
   top: 0;
@@ -1109,12 +1109,14 @@ body
 
 .popup-content {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
+  max-width: 1350px;
+  width: 100%;
 }
 
 .close-btn {
@@ -1129,6 +1131,11 @@ body
 
 .open-btn {
   margin-top: 20px;
+}
+
+.t-img
+{
+  width: 500px;
 }
 
 

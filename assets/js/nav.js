@@ -24,14 +24,14 @@ navToggle.addEventListener('click', () =>
 // TESTING POP_UP
 
 var openBtn = document.querySelector(".open-btn");
-var popup = document.getElementById("popup");
+var designsPopup = document.getElementById("designs-popup");
 var closeBtn = document.getElementById("closeBtn");
 
 openBtn.addEventListener("click", function () {
-  popup.style.display = "block";
+  designsPopup.style.display = "block";
 });
 
 closeBtn.addEventListener("click", function () {
-  popup.style.display = "none";
+  designsPopup.style.display = "none";
 });
 
