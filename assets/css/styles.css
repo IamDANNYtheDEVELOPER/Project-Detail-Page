@@ -127,7 +127,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #F1F5F9;
+  color: #f1f5f9;
 }
 
 /***************** Hero Section *****************/
@@ -627,7 +627,7 @@ body {
 /**************** Designs Section Container End*************/
 /**************** Userflows Section Container Start*************/
 .userflow-caption {
-  color: #94A3B8;
+  color: #94a3b8;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   padding-top: 30px;
@@ -661,7 +661,7 @@ body {
 }
 
 .userflow-title {
-  color: #F8FAFC;
+  color: #f8fafc;
   font-family: "Poppins", sans-serif;
   font-size: 28px;
   padding-top: 10px;
@@ -698,7 +698,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  background-color: #030B19;
+  background-color: #030b19;
   padding-bottom: 10px;
   border-radius: 8px 8px 0px 0px;
 }
@@ -780,7 +780,7 @@ body {
 
 .viewflow-btn {
   background-color: #475569;
-  color: #F1F5F9;
+  color: #f1f5f9;
   padding: 10px 15px;
   border-radius: 25px;
   border: 0px;
@@ -880,7 +880,7 @@ body {
 }
 
 .ux-coming {
-  color: #F8FAFC;
+  color: #f8fafc;
   top: 230px;
   left: 46%;
   font-size: 1.25rem;
@@ -890,7 +890,7 @@ body {
 
 /**************** Footer *************/
 .footer {
-  background-color: #0B111E;
+  background-color: #0b111e;
   text-align: center;
   margin-bottom: 0;
 }
@@ -900,7 +900,7 @@ body {
   padding-top: 30px;
   margin-bottom: 0px;
   font-weight: 500;
-  color: #FBFCFE;
+  color: #fbfcfe;
 }
 
 .footer-flex {
@@ -919,12 +919,12 @@ body {
 .footer-link-txt {
   font-size: 19px;
   text-decoration: none;
-  color: #64748B;
+  color: #64748b;
   transition: 0.2s;
 }
 
 .footer-link-txt:hover {
-  color: #EAF0F6;
+  color: #eaf0f6;
 }
 
 .footer-icon-links {
@@ -934,41 +934,41 @@ body {
 }
 
 .fb-icon {
-  color: #EDF2F7;
+  color: #edf2f7;
   font-size: 28px;
   text-decoration: none;
   transition: 0.2s;
 }
 
 .fb-icon:hover {
-  color: #CBD5E1;
+  color: #cbd5e1;
 }
 
 .linkedin-icon {
-  color: #EDF2F7;
+  color: #edf2f7;
   font-size: 28px;
   text-decoration: none;
   transition: 0.2s;
 }
 
 .linkedin-icon:hover {
-  color: #CBD5E1;
+  color: #cbd5e1;
 }
 
 .twitter-icon {
-  color: #EDF2F7;
+  color: #edf2f7;
   font-size: 28px;
   text-decoration: none;
   transition: 0.2s;
 }
 
 .twitter-icon:hover {
-  color: #CBD5E1;
+  color: #cbd5e1;
 }
 
 .copyright-text {
   padding-bottom: 30px;
-  color: #64748B;
+  color: #64748b;
   padding-top: 25px;
   margin: 0;
 }
@@ -980,16 +980,16 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(3, 11, 25, 0.5);
   z-index: 9999;
 }
 
-.popup-content {
+.designs-popup-content {
   position: absolute;
-  top: 20%;
+  top: 500px;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fff;
+  background-color: #fbfcfe;
   padding: 20px;
   border-radius: 5px;
   max-width: 1350px;
@@ -1010,6 +1010,39 @@ body {
   margin-top: 20px;
 }
 
-.t-img {
-  width: 500px;
+.popup-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.pop-up-button {
+  padding: 7px 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  color: #2b2b2b;
+  background-color: #E2E3F0;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.active-button {
+  color: #fbfcfe;
+  background-color: #1E293B;
+}
+
+.filterable-sections {
+  display: flex;
+  margin-top: 25px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.preview-img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
 }/*# sourceMappingURL=styles.css.map */

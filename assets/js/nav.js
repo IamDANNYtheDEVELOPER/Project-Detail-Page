@@ -23,8 +23,8 @@ navToggle.addEventListener('click', () =>
 
 // TESTING POP_UP
 
-var openBtn = document.querySelector(".open-btn");
-var designsPopup = document.getElementById("designs-popup");
+var openBtn = document.getElementById("openBtn");
+var designsPopup = document.getElementById("designsPopup");
 var closeBtn = document.getElementById("closeBtn");
 
 openBtn.addEventListener("click", function () {

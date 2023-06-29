@@ -405,26 +405,53 @@
   
   <!-- TESTING POP-UP -->
   
-  <div id="designs-popup" class="designs-popup">
-    <div class="popup-content">
+  <div id="designsPopup" class="designs-popup">
+    <div class="designs-popup-content">
       <!-- Close Button -->
       <button id="closeBtn" class="close-btn">&times;</button>
 
       <!-- Filter Buttons -->
-      <button data-name="all">Show all</button>
-      <button data-name="spiderman">Spiderman</button>
-      <button data-name="uncharted">Uncharted</button>
-      <button data-name="lastofus">LastOfUs</button>
+      <div class="popup-buttons">
+        <button class="pop-up-button active-button" data-name="all">Show all</button>
+        <button class="pop-up-button" data-name="spiderman">Spiderman</button>
+        <button class="pop-up-button" data-name="uncharted">Uncharted</button>
+        <button class="pop-up-button" data-name="lastofus">LastOfUs</button>
+      </div>
       
+      <!-- Image Sections -->
+      <div class="filterable-sections">
+        <a data-name="Spiderman" data-fslightbox href="assets/images/Design section images/1.jpg">
+          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
+        </a>
+        
+        <a data-name="Spiderman" data-fslightbox href="assets/images/Design section images/1.jpg">
+          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
+        </a>
+
+        <a data-name="Spiderman" data-fslightbox href="assets/images/Design section images/1.jpg">
+          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
+        </a>
+
+        <a data-name="Spiderman" data-fslightbox href="assets/images/Design section images/1.jpg">
+          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
+        </a>
+
+        <a data-name="Spiderman" data-fslightbox href="assets/images/Design section images/1.jpg">
+          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
+        </a>
+
+        <a data-name="Spiderman" data-fslightbox href="assets/images/Design section images/1.jpg">
+          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
+        </a>
+
+      </div>
       
 
-      <!-- <h1>HELLO JOHN!!!</h1>
-      <p>Hajime Mashithe</p>
-      <img class="t-img" src="/assets/images/(Faster)Registering as HR Admin-1.png" alt=""> -->
     </div>
   </div>
   
-  <button class="open-btn">Open Pop-up</button>
+  <!-- Open Button for Pop-up -->
+  <button class="open-btn" id="openBtn">Open Pop-up</button>
   
 
 
