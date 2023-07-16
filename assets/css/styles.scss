@@ -928,7 +928,11 @@ body {
   margin: 0;
 }
 
-// Main Pop-up design
+
+
+
+
+// Main Pop-up design /////
 .designs-popup {
   display: none;
   position: fixed;
@@ -991,12 +995,26 @@ body {
   background-color: #1E293B;
 }
 
+// .filterable-images
+// {
+//   display: flex;
+//   margin-top: 25px;
+//   gap: 20px;
+//   flex-wrap: wrap;
+// }
+
 .filterable-images
 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 25px;
-  gap: 20px;
+  grid-gap: 20px;
   flex-wrap: wrap;
+}
+
+.filterable-image.hide
+{
+  display: none;
 }
 
 .preview-img

@@ -1034,10 +1034,15 @@ body {
 }
 
 .filterable-images {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 25px;
-  gap: 20px;
+  grid-gap: 20px;
   flex-wrap: wrap;
+}
+
+.filterable-image.hide {
+  display: none;
 }
 
 .preview-img {
