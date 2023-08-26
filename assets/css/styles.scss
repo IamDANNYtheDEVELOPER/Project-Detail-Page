@@ -19,8 +19,6 @@ body {
 .primary-header {
   position: sticky;
   top: 0;
-  // left: 0;
-  // width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,10 +32,6 @@ body {
   text-decoration: none;
 }
 
-// .navbar
-// {
-//   background: #0b111e;
-// }
 
 .navbar-brand {
   color: #4abfe3;
@@ -63,7 +57,6 @@ body {
   @media (max-width: 800px) {
     position: fixed;
     z-index: 1000;
-    // inset: 0 0 0 60%;
     top: 0;
     right: 0;
     bottom: 0;
@@ -71,7 +64,6 @@ body {
 
     flex-direction: column;
     padding: 100px 5% 10%;
-    // padding: min(30vh, 10rem), 2em;
 
     transform: translateX(100%);
     transition: transform 350ms ease-out;
@@ -137,7 +129,6 @@ body {
 
 /***************** Hero Section *****************/
 #hero-section {
-  // background-color: #0b111e;
   padding: 10% 0%;
 }
 
@@ -261,6 +252,7 @@ body {
   padding: 12px 22px;
   margin-top: 2.8125rem;
   transition: 0.8s;
+  cursor: pointer;
 
   @media (max-width: 1367px) {
     font-weight: 400;
@@ -317,6 +309,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  cursor: pointer;
 
   @media (max-width: 1367px) {
     font-weight: 400;
@@ -383,359 +376,7 @@ body {
   padding: 3% 12% 3%;
 }
 
-/* Design Thumbnail Cards */
-// .title-and-button {
-//   align-items: center;
-// }
 
-.design-card-button:hover {
-  background-color: #1e293b;
-  color: #ffffff;
-}
-
-.designs-row {
-  margin-top: 3.25rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
-  grid-gap: 6.25rem; //100px
-
-  @media (max-width: 1500px) {
-    grid-gap: 3.125rem;
-  }
-
-  @media (max-width: 1350px) {
-    grid-gap: 1.875rem;
-  }
-
-  @media (max-width: 1300px) {
-    grid-gap: 1.25rem;
-  }
-
-  @media (max-width: 991px) {
-    grid-gap: 5rem;
-  }
-
-  @media (max-width: 631px) {
-    grid-gap: 2.5rem;
-  }
-
-  @media (max-width: 588px) {
-    grid-gap: 3.75rem;
-  }
-
-  @media (max-width: 530px) {
-    margin-top: 2rem;
-  }
-}
-
-.fidelity-card {
-  background-color: #475569;
-  overflow: hidden;
-  border-radius: 0.5rem;
-  box-shadow: 0px 19px 34px -11px rgba(0, 0, 0, 0.21);
-}
-
-.title-and-button //.designs-row .fidelity-card
-{
-  padding: 0px 15px;
-  padding-top: 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.card-title  //.designs-row .fidelity-card .title-and-button .design-card-title
-{
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 1.3rem;
-  color: #ffffff;
-  /* line-height: 170%; */
-  align-self: center;
-
-  @media (max-width: 1270px) {
-    font-weight: 500;
-    font-size: 1.1rem;
-  }
-
-  @media (max-width: 1075px) {
-    font-weight: 500;
-    font-size: 0.9rem;
-  }
-
-  @media (max-width: 991px) {
-    font-weight: 500;
-    font-size: 1.1rem;
-  }
-
-  @media (max-width: 830px) {
-    font-weight: 400;
-    font-size: 1rem;
-  }
-
-  @media (max-width: 670px) {
-    font-weight: 400;
-    font-size: 0.8rem;
-  }
-
-  @media (max-width: 588px) {
-    font-weight: 500;
-    font-size: 1.3rem;
-  }
-
-  @media (max-width: 420px) {
-    font-weight: 400;
-    font-size: 1.1rem;
-  }
-
-  @media (max-width: 320px) {
-    font-weight: 400;
-    font-size: 0.9rem;
-  }
-
-  @media (max-width: 283px) {
-    font-weight: 400;
-    font-size: 0.75rem;
-  }
-}
-
-.design-card-button  // .designs-row .fidelity-card .title-and-button .design-card-btn
-{
-  font-family: "Poppins";
-  border-radius: 5px;
-  background-color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.938rem;
-  line-height: 170%;
-  color: #475569;
-  transition: 0.5s;
-
-  @media (max-width: 1270px) {
-    font-size: 0.75rem;
-    padding: 8px 15px;
-  }
-
-  @media (max-width: 1075px) {
-    font-size: 0.75rem;
-    padding: 8px 15px;
-  }
-
-  @media (max-width: 991px) {
-    font-size: 0.8rem;
-    padding: 10px 20px;
-  }
-
-  @media (max-width: 765px) {
-    font-size: 0.7rem;
-    padding: 8px 8px;
-  }
-
-  @media (max-width: 588px) {
-    font-size: 0.938rem;
-    padding: 10px 20px;
-  }
-
-  @media (max-width: 420px) {
-    font-size: 0.8rem;
-    padding: 8px 8px;
-  }
-
-  @media (max-width: 320px) {
-    font-size: 0.7rem;
-    padding: 8px 8px;
-  }
-
-  @media (max-width: 283px) {
-    font-size: 0.7rem;
-    padding: 5px 5px;
-  }
-}
-
-.design-card-button:hover  // .designs-row .fidelity-card .title-and-button .design-card-btn
-{
-  background: #1e293b;
-  color: #ffffff;
-}
-
-.design-card {
-  padding: 15px 15px 0px 15px;
-}
-
-.thumbnail  // .design-card
-{
-  border-radius: 8px;
-  width: 100%;
-  aspect-ratio: 0.9/0.775; // 0.9/0.775 , 1.1/1
-  max-width: max-content;
-  object-fit: cover;
-
-  @media (max-width: 93.75rem) {
-    width: 100%;
-  }
-
-  @media (max-width: 588px) {
-    width: 100%;
-    aspect-ratio: 0.88/0.675;
-  }
-}
-
-/**************** Designs Section Container End*************/
-
-/**************** Userflows Section Container Start*************/
-
-.userflow-caption {
-  color: #94a3b8;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  padding-top: 30px;
-  padding-left: 15px;
-  margin: 0;
-
-  @media (max-width: 800px) {
-    font-size: 13px;
-  }
-
-  @media (max-width: 700px) {
-    font-size: 10px;
-  }
-
-  @media (max-width: 588px) {
-    font-size: 15px;
-  }
-
-  @media (max-width: 347px) {
-    font-size: 12px;
-  }
-
-  @media (max-width: 283px) {
-    font-size: 10px;
-  }
-}
-
-.userflow-title {
-  color: #f8fafc;
-  font-family: "Poppins", sans-serif;
-  font-size: 28px;
-  padding-top: 10px;
-  padding-left: 15px;
-  margin: 0;
-
-  @media (max-width: 800px) {
-    font-size: 22px;
-  }
-
-  @media (max-width: 700px) {
-    font-size: 18px;
-  }
-
-  @media (max-width: 588px) {
-    font-size: 24px;
-  }
-
-  @media (max-width: 588px) {
-    font-size: 20px;
-  }
-
-  @media (max-width: 283px) {
-    font-size: 18px;
-  }
-}
-
-.top-content {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  background-color: #030b19;
-  padding-bottom: 10px;
-  border-radius: 8px 8px 0px 0px;
-}
-
-.bottom-content {
-  position: relative;
-}
-
-.userflows-container {
-  background-color: #334155;
-  padding: 3% 12% 3%;
-}
-
-.userflow-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 6.25rem;
-
-  @media (max-width: 1447px) {
-    grid-gap: 3.5rem;
-  }
-
-  @media (max-width: 1331px) {
-    grid-gap: 1.5rem;
-  }
-
-  @media (max-width: 1247px) {
-    grid-gap: 1rem;
-  }
-
-  @media (max-width: 991px) {
-    grid-gap: 5rem;
-  }
-
-  @media (max-width: 631px) {
-    grid-gap: 2.95rem;
-  }
-}
-
-.userflow-card {
-  border-radius: 8px;
-}
-
-.userflow-img {
-  border-radius: 0px 0px 8px 8px;
-  // width: 100%;
-  width: 100%;
-  aspect-ratio: 0.7/0.52; // 0.9/0.775 , 1.1/1
-  max-width: max-content;
-  object-fit: cover;
-
-  @media (max-width: 1226px) {
-    aspect-ratio: 0.7/0.52;
-  }
-
-  @media (max-width: 831px) {
-    aspect-ratio: 0.345/0.25;
-  }
-
-  @media (max-width: 368px) {
-    aspect-ratio: 0.445/0.325;
-  }
-}
-
-.viewflow {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-}
-
-.viewflow-btn {
-  // background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  // border: 2px solid #194169;
-  // backdrop-filter: blur(12px);
-  // -webkit-backdrop-filter: blur(12px);
-  background-color: #475569;
-  color: #f1f5f9;
-  padding: 10px 15px;
-  border-radius: 25px;
-  border: 0px;
-  transition: 0.5s;
-}
-
-.viewflow-btn:hover {
-  background-color: #1e293b;
-  cursor: pointer;
-}
 
 /**************** About Section Container Start*************/
 
@@ -785,12 +426,10 @@ body {
 /**************** UX Case study *************/
 
 .ux-container {
-  // padding: 0% 0% 5%;
   background: url("/assets/images/UX-wall.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  // position: relative;
   height: 300px;
   margin-bottom: 20px;
 }
@@ -801,12 +440,8 @@ body {
   font-weight: 600;
   color: #ffffff;
   transition: 0.8s;
-  // display: inline-block;
-  // position: absolute;
-  // z-index: 1;
   text-align: center;
   padding-top: 125px;
-  // left: 24%;
 
   @media (max-width: 1600px) {
     font-size: 1.5rem;
@@ -817,9 +452,6 @@ body {
   width: 100%;
   object-fit: cover;
   height: 400px;
-  // aspect-ratio: 0.7/0.52; // 0.9/0.775 , 1.1/1
-  // max-width: max-content;
-  // filter: blur(5px);
 }
 
 .ux-text {
@@ -832,8 +464,6 @@ body {
 }
 
 .ux-coming {
-  // position: absolute;
-  // z-index: 1;
   color: #f8fafc;
   top: 230px;
   left: 46%;
@@ -929,31 +559,12 @@ body {
 }
 
 
+// Designs and Userflows Gallery //
 
-
-
-// Main Pop-up design /////
-.designs-popup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(3, 11, 25, 0.5);
-  z-index: 9999;
-}
-
-.designs-popup-content {
-  position: absolute;
-  top: 500px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.designs-userflows-content {
   background-color: #fbfcfe;
   padding: 20px;
   border-radius: 5px;
-  max-width: 1350px;
-  width: 100%;
 }
 
 .close-btn {
@@ -987,6 +598,7 @@ body {
   border: none;
   border-radius: 6px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.20);
+  cursor: pointer;
 }
 
 .active
@@ -995,21 +607,19 @@ body {
   background-color: #1E293B;
 }
 
-// .filterable-images
-// {
-//   display: flex;
-//   margin-top: 25px;
-//   gap: 20px;
-//   flex-wrap: wrap;
-// }
-
 .filterable-images
 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
   margin-top: 25px;
-  grid-gap: 20px;
   flex-wrap: wrap;
+  gap: 20px;
+
+  @media (max-width: 500px) {
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
 
 .filterable-image.hide
@@ -1019,9 +629,18 @@ body {
 
 .preview-img
 {
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
   object-fit: cover;
   border-radius: 8px;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
 }
+
+
 

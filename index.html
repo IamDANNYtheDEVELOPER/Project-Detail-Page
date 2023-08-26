@@ -41,7 +41,7 @@
   
   <header id="primaryheader" class="primary-header">
     <div>
-      <a class="navbar-brand" href="">Daniel</a>
+      <a class="navbar-brand" href="https://iamdannythedeveloper.github.io/site/">Daniel</a>
     </div>
   
     <button class="mobile-nav-toggle" aria-controls="nav-content" aria-expanded="false" aria>
@@ -51,13 +51,10 @@
     <nav class="navbar">
       <ul id="nav-content" data-visible="false" class="nav-content">
         <li class="nav-item">
-          <a class="nav-link" href="#"><span class="number-in-nav-content">01. </span>Designs</a>
+          <a class="nav-link" href="#designs/userflows"><span class="number-in-nav-content">01. </span>Designs and Userflows</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><span class="number-in-nav-content">02. </span>Userflows</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><span class="number-in-nav-content">03. </span>Project details</a>
+          <a class="nav-link" href="#about"><span class="number-in-nav-content">03. </span>Project details</a>
         </li>
       </ul>
     </nav>
@@ -84,13 +81,18 @@
             borrowers.
           </p>
           <div class="buttons">
-            <button type="button" class="about-btn">
-             <p class="hero-btn-txt">About the Product</p>
-            </button>
-            <button type="button" class="view-designs-btn">
-              <p class="hero-btn-txt">View the Designs</p>
-              <img src="assets/icons/design-icon.svg" alt="design-icon" class="design-icon">
-            </button>
+            <a href="#about">
+              <button type="button" class="about-btn">
+                <p class="hero-btn-txt">About the Product</p>
+              </button>
+            </a>
+            <a href="#designs/userflows">
+              <button type="button" class="view-designs-btn">
+                <p class="hero-btn-txt">View the Designs</p>
+                <img src="assets/icons/design-icon.svg" alt="design-icon" class="design-icon">
+              </button>
+            </a>
+            
           </div>
         </div>
 
@@ -103,118 +105,62 @@
     <!--=============== Hero Section End ===============-->
   </div>
 
+  <!--=============== Designs and Userflows Section Container Start ===============-->
 
-  <!--=============== Designs Section Container Start ===============-->
-  <section class="designs-container">
-    <h1 class="main-heading">Designs</h1>
-    <div class="designs-row">
-      <!-- Low-Fi Card -->
-      <div class="fidelity-card">
-        <div class="design-card">
-          <img src="assets/images/(Faster)Registering as HR Admin-1.png" alt="" class="thumbnail">
-        </div>
-        <div class="title-and-button">
-          <div class="design-card-title">
-            <p class="card-title">Low-Fidelity</p>
-          </div>
-          <div class="design-card-btn" id="openBtn">
-            <button type="button" class="design-card-button">
-              View gallery
-            </button>
-          </div>
-        </div>
+  <section class="designs-container" id="designs/userflows">
+    <h1 class="main-heading">Designs and Userflows</h1>
+    
+    <div class="designs-userflows-content">
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filterbutton active" data-name="all">Show all</button>
+        <button class="filterbutton" data-name="spiderman">Spiderman</button>
+        <button class="filterbutton" data-name="uncharted">Uncharted</button>
+        <button class="filterbutton" data-name="lastofus">Last Of Us</button>
       </div>
+      
+      <!-- Image Sections -->
+      <div class="filterable-images">
+        <a data-name="spiderman" class="filterable-image" data-fslightbox="first-lightbox" href="assets/images/Design section images/6.jpg">
+          <img class="preview-img" src="assets/images/Design section images/6.jpg" alt="Image">
+        </a>
 
-      <!-- Med-Fi Card -->
-      <div class="fidelity-card">
-        <div class="design-card">
-          <img src="assets/images/(Faster)Registering as HR Admin-1.png" alt="" class="thumbnail">
-        </div>
-        <div class="title-and-button">
-          <div class="design-card-title">
-            <p class="card-title">Med-Fidelity</p>
-          </div>
-          <div class="design-card-btn" id="openBtn2">
-            <button type="button" class="design-card-button">
-              View gallery
-            </button>
-          </div>
-        </div>
-      </div>
+        <a data-name="spiderman" class="filterable-image" data-fslightbox="first-lightbox" href="assets/images/Design section images/7.jpg">
+          <img class="preview-img" src="assets/images/Design section images/7.jpg" alt="Image">
+        </a>
+        
+        <a data-name="spiderman" class="filterable-image" data-fslightbox="first-lightbox" href="assets/images/Design section images/8.jpg">
+          <img class="preview-img" src="assets/images/Design section images/8.jpg" alt="Image">
+        </a>
 
-      <!-- Med-Fi Card -->
-      <div class="fidelity-card">
-        <div class="design-card">
-          <img src="assets/images/(Faster)Registering as HR Admin-1.png" alt="" class="thumbnail">
-        </div>
-        <div class="title-and-button">
-          <div class="design-card-title">
-            <p class="card-title">High-Fidelity</p>
-          </div>
-          <div class="design-card-btn" id="openBtn">
-            <button type="button" class="design-card-button">
-              View gallery
-            </button>
-          </div>
-        </div>
+        <a data-name="uncharted" class="filterable-image" data-fslightbox="second-lightbox" href="assets/images/Design section images/2.jpg">
+          <img class="preview-img" src="assets/images/Design section images/2.jpg" alt="Image">
+        </a>
+
+        <a data-name="uncharted" class="filterable-image" data-fslightbox="second-lightbox" href="assets/images/Design section images/9.jpg">
+          <img class="preview-img" src="assets/images/Design section images/9.jpg" alt="Image">
+        </a>
+
+        <a data-name="lastofus" class="filterable-image" data-fslightbox="third-lightbox" href="assets/images/Design section images/3.jpg">
+          <img class="preview-img" src="assets/images/Design section images/3.jpg" alt="Image">
+        </a>
+
+        <a data-name="lastofus" class="filterable-image" data-fslightbox="third-lightbox" href="assets/images/Design section images/5.jpg">
+          <img class="preview-img" src="assets/images/Design section images/5.jpg" alt="Image">
+        </a>
+
       </div>
-    </div>
+      
+  </div>
+  </div>
   </section>
-  <!--=============== Designs Section Container End ===============-->
+
+  <!--=============== Designs and Userflows Section Container End ===============-->
 
 
-  <!--=============== Userflows Section Container Start ===============-->
-  <section class="userflows-container">
-    <h1 class="main-heading">Userflows</h1>
-    <div class="userflow-row">
-      <div class="userflow-card">
-        <div class="top-content">
-          <p class="userflow-caption">BASED ON THE RQUIREMENT FOR</p>
-          <p class="userflow-title">HR Admin</p>
-        </div>
-        <div class="bottom-content">
-          <img class="userflow-img" src="assets/images/(Faster)Registering as HR Admin-1.png" alt="">
-          <div class="viewflow">
-            <button class="viewflow-btn">view flow</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="userflow-card">
-        <div class="top-content">
-          <div class="userflow-card-caption">
-            <p class="userflow-caption">BASED ON THE RQUIREMENT FOR</p>
-          </div>
-          <div class="userflow-card-title">
-            <p class="userflow-title">HR Admin</p>
-          </div>
-        </div>
-        <div class="bottom-content">
-          <img class="userflow-img" src="assets/images/(Faster)Registering as HR Admin-1.png" alt="">
-          <div class="viewflow">
-            <button class="viewflow-btn">view flow</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="userflow-card">
-        <div class="top-content">
-          <p class="userflow-caption">BASED ON THE RQUIREMENT FOR</p>
-          <p class="userflow-title">HR Admin</p>
-        </div>
-        <div class="bottom-content">
-          <img class="userflow-img" src="assets/images/LastOfUs II - 2.jpg" alt="">
-          <div class="viewflow">
-            <button class="viewflow-btn">view flow</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--=============== Userflows Section Container End ===============-->
 
   <!--=============== About the Project Section Container Start ===============-->
-  <section class="about-container">
+  <section class="about-container" id="about">
     <div class="top-row">
       <h1 class="main-heading2">About the Project</h1>
       <div class="image-row">
@@ -367,7 +313,6 @@
   <!--=============== UX Case Study coming soon Section Container Start ===============-->
 
   <section class="ux-container">
-    <!-- <img class="ux-img" src="assets/images/UX-wall.png" alt="ux-img"> -->
     <h1 class="main-heading3">The Complete <span class="ux-text">UX</span> Case Study is still in the making</h1>
     <h3 class="ux-coming">Coming soon...</h3>
   </section>
@@ -403,96 +348,6 @@
   </section>
 
   
-  <!-- TESTING POP-UP -->
-  
-  <div id="designsPopup" class="designs-popup">
-    <div class="designs-popup-content">
-      <!-- Close Button -->
-      <button id="closeBtn" class="close-btn">&times;</button>
-
-      <!-- Filter Buttons -->
-      <div class="filter-buttons">
-        <button class="filterbutton active" data-name="all">Show all</button>
-        <button class="filterbutton" data-name="spiderman">Spiderman</button>
-        <button class="filterbutton" data-name="uncharted">Uncharted</button>
-        <button class="filterbutton" data-name="lastofus">Last Of Us</button>
-      </div>
-      
-      <!-- Image Sections -->
-      <div class="filterable-images">
-        <a data-name="spiderman" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-        </a>
-        
-        <a data-name="spiderman" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-        </a>
-
-        <a data-name="uncharted" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-        </a>
-
-        <a data-name="uncharted" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-        </a>
-
-        <a data-name="lastofus" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-        </a>
-
-        <a data-name="lastofus" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-          <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-        </a>
-
-      </div>
-      
-
-    </div>
-  </div>
-  
-  <!-- Open Button for Pop-up -->
-  <button class="open-btn" id="openBtn">Open Pop-up</button>
-
-  <!-- Filter Buttons -->
-  <!-- <div class="filter-buttons">
-    <button class="filterbutton active" data-name="all">Show all</button>
-    <button class="filterbutton" data-name="spiderman">Spiderman</button>
-    <button class="filterbutton" data-name="uncharted">Uncharted</button>
-    <button class="filterbutton" data-name="lastofus">Last Of Us</button>
-  </div> -->
-  
-  <!-- Image Sections -->
-  <!-- <div class="filterable-images">
-    <a data-name="spiderman" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-      <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-    </a>
-  
-    <a data-name="spiderman" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-      <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-    </a>
-  
-    <a data-name="uncharted" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-      <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-    </a>
-  
-    <a data-name="uncharted" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-      <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-    </a>
-  
-    <a data-name="lastofus" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-      <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-    </a>
-  
-    <a data-name="lastofus" class="filterable-image" data-fslightbox href="assets/images/Design section images/1.jpg">
-      <img class="preview-img" src="assets/images/Design section images/1.jpg" alt="Image">
-    </a> -->
-  
-
-
-    
-
-
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script src="/assets/js/fslightbox.js"></script>

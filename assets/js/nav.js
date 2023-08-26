@@ -21,30 +21,14 @@ navToggle.addEventListener('click', () =>
 
 
 
-// Designs Pop-Up
+//*** Designs Pop-Up ***//
 
-var openBtn = document.getElementById("openBtn");
 var designsPopup = document.getElementById("designsPopup");
-var closeBtn = document.getElementById("closeBtn");
-
-openBtn.addEventListener("click", function () {
-  designsPopup.style.display = "block";
-});
-
-closeBtn.addEventListener("click", function () {
-  designsPopup.style.display = "none";
-});
-
 
 // Designs Pop-Up - Filterbuttons selections
-
 const filterButtons = document.querySelectorAll(".filter-buttons .filterbutton");
 const filterableImages = document.querySelectorAll(".filterable-images .filterable-image");
-// console.log(filterButtons, filterableImages);
 
-
-
-//Pop-Up stopped responsing after the below code
 
 // Defining the filterImages function
 const filterImages = e => {
